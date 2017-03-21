@@ -28,4 +28,6 @@ footer {
 .title {
 	font-family: 'Comfortaa', cursive;
 	text-align: center;
+	margin: 30px;
+	font-weight: bold;
 }
