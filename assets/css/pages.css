@@ -1,0 +1,26 @@
+footer {
+	text-align: center;
+	margin: 100px;
+}
+
+.img-container {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.aboutImg {
+	display: block;
+    height: auto;
+    width: 100%;
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+.col-md-4 h3 {
+	font-family: 'Comfortaa', cursive;
+}

@@ -1,0 +1,23 @@
+h1 {
+  color: #911719;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+  color: #911719;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;	
+}
+
+.arrow {
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+  bottom: 200px;
+}
+
+.hotpic {
+  display: block;
+  margin: auto;
+}
