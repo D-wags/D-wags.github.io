@@ -84,3 +84,21 @@ footer {
 	padding:10px; 
 }
 
+
+table tr th{
+	padding: 50px;
+}
+
+table tr td{
+	padding: 50px;
+}
+
+table tr td .img-container{
+	float: left;
+}
+
+table tr td .sites{
+
+	float: left;
+}
+
