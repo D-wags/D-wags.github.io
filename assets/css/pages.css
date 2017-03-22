@@ -125,3 +125,6 @@ tr:nth-child(odd){
 th{
 	background-color: #ffe9e7;
 }
+td{
+	text-align: left;
+}
