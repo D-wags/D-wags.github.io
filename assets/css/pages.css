@@ -113,9 +113,9 @@ table tr td .img-container{
 	float: left;
 }
 
-table tr td .sites{
+.pepper {
+	width: 200px;
 
-	float: left;
 }
 
 tr:nth-child(odd){
