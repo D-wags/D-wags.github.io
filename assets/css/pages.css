@@ -31,3 +31,24 @@ footer {
 	margin: 30px;
 	font-weight: bold;
 }
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+
+.navbar .navbar-collapse {
+    text-align: center;
+    background-color: #a51324;
+}
+
+
+
+
+.page-header {
+	font-family: 'Raleway', sans-serif;	
+}
