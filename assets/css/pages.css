@@ -48,7 +48,7 @@ footer {
 
 
 .page-header {
-	font-family: 'Raleway', sans-serif;	
+	font-family: 'Raleway', sans-serif;
 }
 
 .feature {
@@ -58,6 +58,7 @@ footer {
 }
 
 .feature img {
+<<<<<<< HEAD
 	width: 30%;
 	height: 30%;
 }
@@ -67,3 +68,18 @@ footer {
 	text-align: center;
 	margin: 50px 200px 50px 0px;
 }
+=======
+	width: 10%;
+	height: 10%;
+}
+.headerLink:hover {
+	color: #d63030;
+	text-decoration: none;
+
+
+}
+.headerLink{
+	color: black;
+	transition: color 350ms ease-in-out, background-color 350ms ease-in-out
+}
+>>>>>>> f5242f375cce7dcb5931c7dfaee994ac6ec9f24d
