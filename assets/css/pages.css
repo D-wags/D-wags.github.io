@@ -48,7 +48,7 @@ footer {
 
 
 .page-header {
-	font-family: 'Raleway', sans-serif;	
+	font-family: 'Raleway', sans-serif;
 }
 
 .feature {
@@ -68,4 +68,19 @@ footer {
 	margin: 50px 200px 50px 0px;
 }
 
+<<<<<<< HEAD
 .classWithPad { margin:10px; padding:10px; }
+=======
+}
+.headerLink:hover {
+	color: #d63030;
+	text-decoration: none;
+
+
+}
+.headerLink{
+	color: black;
+	transition: color 350ms ease-in-out, background-color 350ms ease-in-out
+}
+
+>>>>>>> master
