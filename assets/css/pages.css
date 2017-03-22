@@ -118,3 +118,13 @@ table tr td .sites{
 	float: left;
 }
 
+tr:nth-child(odd){
+	background-color: #eee;
+}
+
+th{
+	background-color: #ffe9e7;
+}
+td{
+	text-align: left;
+}
