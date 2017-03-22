@@ -15,9 +15,6 @@ td > a {
 }
 
 
-/* ID CSS goes here */
-
-
 
 /*    Class CSS goes here       */
 .img-container {
@@ -85,6 +82,9 @@ td > a {
 	margin: 50px 200px 50px 0px;
 }
 
+
+.classWithPad { margin:10px; padding:10px; }
+
 .headerLink:hover {
 	color: #d63030;
 	text-decoration: none;
@@ -99,3 +99,22 @@ td > a {
 	margin:10px;
 	padding:10px;
 }
+
+
+table tr th{
+	padding: 50px;
+}
+
+table tr td{
+	padding: 50px;
+}
+
+table tr td .img-container{
+	float: left;
+}
+
+table tr td .sites{
+
+	float: left;
+}
+
