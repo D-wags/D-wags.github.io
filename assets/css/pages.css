@@ -47,8 +47,15 @@ footer {
 }
 
 
-
-
 .page-header {
 	font-family: 'Raleway', sans-serif;	
+}
+
+.feature {
+	text-align: center;
+}
+
+.feature img {
+	width: 10%;
+	height: 10%;
 }
