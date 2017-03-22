@@ -1,8 +1,22 @@
+/* Tag Css here */
+
 footer {
 	text-align: center;
 	margin: 100px;
 }
+td > a:hover {
+	color: #d63030;
+	text-decoration: none;
+}
 
+td > a {
+	color: #337ab7;
+	transition: color 350ms ease-in-out, background-color 350ms ease-in-out
+}
+
+
+
+/*    Class CSS goes here       */
 .img-container {
 	width: 150px;
 	height: 150px;
@@ -81,11 +95,11 @@ footer {
 	transition: color 350ms ease-in-out, background-color 350ms ease-in-out
 }
 
-
-.classWithPad { 
-	margin:10px; 
-	padding:10px; 
+.classWithPad {
+	margin:10px;
+	padding:10px;
 }
+
 
 table tr th{
 	padding: 50px;
