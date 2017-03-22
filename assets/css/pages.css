@@ -68,6 +68,13 @@ footer {
 	margin: 50px 200px 50px 0px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.classWithPad { margin:10px; padding:10px; }
+=======
+}
+>>>>>>> dev
 .headerLink:hover {
 	color: #d63030;
 	text-decoration: none;
@@ -78,9 +85,13 @@ footer {
 	transition: color 350ms ease-in-out, background-color 350ms ease-in-out
 }
 
+<<<<<<< HEAD
 
 .classWithPad { 
 	margin:10px; 
 	padding:10px; 
 }
 
+=======
+>>>>>>> master
+>>>>>>> dev
