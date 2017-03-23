@@ -109,6 +109,10 @@ td > a {
 	padding:10px;
 }
 
+.scoville{
+	padding: 0;
+	text-align: center;
+}
 
 table tr th{
 	padding: 50px;
