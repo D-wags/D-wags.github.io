@@ -1,0 +1,541 @@
+commit f00c63b1bc5c8aaea47127a74b4b223f462296a7
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Thu Mar 23 17:41:10 2017 -0500
+
+    commit numbers
+
+commit 1a92d2f3a94a6fb6a2efdf9eb278d54c93f95dc4
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Thu Mar 23 17:31:45 2017 -0500
+
+    added slack
+
+commit ea402890a982f00881a07ffd92e7ee3aa1a97250
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Thu Mar 23 17:15:29 2017 -0500
+
+    &ntilde;
+
+commit 0bda5a982db7e45047d22f1ef6c882bdc1d2a745
+Merge: e6d7377 877883a
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Thu Mar 23 17:07:18 2017 -0500
+
+    Merge branch 'master' of https://github.com/D-wags/D-wags.github.io
+
+commit e6d73775d161b6f580475f675346710871af3aa8
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Thu Mar 23 17:05:51 2017 -0500
+
+    unicode squiggley n
+
+commit 877883a0261f28efd687c55c6cdfd16f8bb630ab
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 17:00:53 2017 -0500
+
+    change image formatting
+
+commit f1018a2324cc5e691540ec30fd0089c8a297e0ba
+Merge: ead19f2 ed67a6b
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 16:50:07 2017 -0500
+
+    Merge branch 'master' of https://github.com/D-wags/D-wags.github.io
+
+commit ead19f2af7b3596374d9bb39fe2ee2223f772865
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 16:49:56 2017 -0500
+
+    add links on instance pages
+
+commit ed67a6b092e556a2f5ea44305055034072bd8d77
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Thu Mar 23 16:49:39 2017 -0500
+
+    about page
+
+commit 2c9ab7c4121d201a575af441bb6c1423ac5e7ac4
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Thu Mar 23 16:45:09 2017 -0500
+
+    javascript added
+
+commit 57a7616d000cd0a055e799ff0424d2abb059d6d2
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 16:15:02 2017 -0500
+
+    fix title link for pages
+
+commit a2a7908512722f973a5353adc9eeaeed3ff2f63c
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 16:11:14 2017 -0500
+
+    fix table
+
+commit af4e859ef2bed23ec077202771d2afb2550290b0
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 16:07:58 2017 -0500
+
+    fix formatting
+
+commit 9737057e6a372b196b07479bbe468a51a7f3fbea
+Merge: a8befa7 a50d0b9
+Author: hmcdowelle <hmcdowelle@gmail.com>
+Date:   Thu Mar 23 16:06:59 2017 -0500
+
+    Merge branch 'dev'
+
+commit a50d0b90f784b8f11624d2882ef8a7b56a113a59
+Author: hmcdowelle <hmcdowelle@gmail.com>
+Date:   Thu Mar 23 16:06:28 2017 -0500
+
+    added links to brands.html
+
+commit a8befa784068fb60771d4cb55308580dee6f390a
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 15:58:31 2017 -0500
+
+    add to about page
+
+commit c5ddc5106b2eac8bd54327f60124dce688467f15
+Author: hmcdowelle <hmcdowelle@gmail.com>
+Date:   Thu Mar 23 15:39:19 2017 -0500
+
+    updated brand htmls
+
+commit c491f00242d283067d082c20c45acb0705f9b3aa
+Merge: d61369d 5d517e2
+Author: hmcdowelle <hmcdowelle@gmail.com>
+Date:   Thu Mar 23 15:30:21 2017 -0500
+
+    Merge branch 'dev'
+
+commit 5d517e24b52d5efcd59064e91cf44dfa7baf59ad
+Author: hmcdowelle <hmcdowelle@gmail.com>
+Date:   Thu Mar 23 15:10:28 2017 -0500
+
+    brand pages
+
+commit d61369dcad20368876bdbd7934a7fd200b805cc1
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Thu Mar 23 14:43:50 2017 -0500
+
+    fix ghost pepper formatting
+
+commit 747b76bbf520c37a0251fe8bf8d29d8e1b2ac081
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Thu Mar 23 14:38:38 2017 -0500
+
+    Fix red jalapeno formatting
+
+commit 54b6bafa0fc14d123421ef1ce6234772f4892171
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Thu Mar 23 13:35:43 2017 -0500
+
+    add better jalapeno picture
+
+commit 5dcae47e1ec3f0f859ca61c7965a0f7151b2a196
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Thu Mar 23 13:30:07 2017 -0500
+
+    add pequin link and fix pictures
+
+commit a167ce1afee8dd11c364c087a912bff771da586d
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Thu Mar 23 13:12:21 2017 -0500
+
+    add pequin pepper page
+
+commit 1ceba9c2a7d2344b57cb99358de92be94216ea14
+Merge: 76d8abc c97a13c
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Thu Mar 23 12:10:04 2017 -0500
+
+    Merge branch 'master' into dev
+
+commit 76d8abcd21099c07ff8aede52a92cf3df68ec35c
+Merge: 1133b05 55a5bc2
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Thu Mar 23 12:09:03 2017 -0500
+
+    update peppers.html
+
+commit c97a13ccbc7c8ae6b1c2dee599183b6ec539c562
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 11:07:24 2017 -0500
+
+    add hyperlink
+
+commit b46dad6cdc0e88efa8bf43b1109260c01c864960
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 11:03:15 2017 -0500
+
+    fix splash page
+
+commit f812b77585c47fa9c71dd8a9993364450f80e4b8
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Thu Mar 23 01:30:51 2017 -0500
+
+    font change
+
+commit 1133b05f225eacbe7700fb95ed8086c1812d11b2
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Thu Mar 23 00:03:36 2017 -0500
+
+    Add ghost pepper page
+
+commit 55a5bc24de8524f83d747618dac2eed160a2e500
+Author: D-wags <drew_wagner@utexas.edu>
+Date:   Wed Mar 22 23:54:03 2017 -0500
+
+    Create CNAME
+
+commit 3de1f8a8c57bb65d0f8db3a05d2cd3552a59f9aa
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 22 19:12:36 2017 -0500
+
+    font change
+
+commit cb030bcec7eea86d209475600d44c9057d0a6530
+Merge: 34bbc82 ec62ba2
+Author: everydaydaniel <daniel94@utexas.edu>
+Date:   Wed Mar 22 19:01:03 2017 -0500
+
+    Merge pull request #13 from D-wags/dan-dev
+    
+    added jQuery
+
+commit ec62ba24c0ab2932b9677b7872ea1b9fc7a5089e
+Merge: 7f501f8 34bbc82
+Author: everydaydaniel <daniel94@utexas.edu>
+Date:   Wed Mar 22 19:00:57 2017 -0500
+
+    Merge branch 'master' into dan-dev
+
+commit 7f501f81a492cd0269bbea653a7493390baffd92
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Wed Mar 22 18:58:47 2017 -0500
+
+    added jQuery
+
+commit 34bbc82bbc4f810caa0d38d181e28235fea3530a
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 18:45:58 2017 -0500
+
+    fix tables
+
+commit fe3ff02d5b16eb91149de0bf29810b85e5efff18
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 22 18:41:19 2017 -0500
+
+    removed more merge conflict code
+
+commit 83beacbf9c13e69b2a8efdf9773604e1413dbdfd
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 22 18:35:49 2017 -0500
+
+    removed conflict code
+
+commit 3e4d10b7163f619eb49af3c488e50011a2349899
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 22 18:29:19 2017 -0500
+
+    hot sauce pages
+
+commit d9bb38011c3718aab37565230e18bf0ce0efb063
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 18:26:47 2017 -0500
+
+    make heading larger
+
+commit 2ec83f2539ac3f7220bba8896b1549c8e23473b6
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 18:19:14 2017 -0500
+
+    fix images
+
+commit 1a77fafcb6ae95fddcef42f3615fbef104dfccdf
+Merge: 764bca4 f61660e
+Author: everydaydaniel <daniel94@utexas.edu>
+Date:   Wed Mar 22 17:39:56 2017 -0500
+
+    Merge pull request #12 from D-wags/dan-dev
+    
+    Dan dev
+
+commit f61660e4e20502c609e08f5667ba935834743eee
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Wed Mar 22 17:38:04 2017 -0500
+
+    fixed broken table tags and added table css
+
+commit 5052fee5a47e9a6bb995edc448ef1c3a25e61d59
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Wed Mar 22 17:22:56 2017 -0500
+
+    even colored tables
+
+commit 764bca46c79dd0a1352b3b00e09112ecbf55d1fa
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Wed Mar 22 17:13:03 2017 -0500
+
+    about me fix
+
+commit 73729787290e404784eaa43caf1e77cc657b632b
+Merge: 5fb619a 3b26451
+Author: everydaydaniel <daniel94@utexas.edu>
+Date:   Wed Mar 22 17:06:12 2017 -0500
+
+    Merge pull request #11 from D-wags/dan-dev
+    
+    link styling
+
+commit 3b26451c64caaf96471daa622df6d63ca2ae5436
+Merge: e42295d 5fb619a
+Author: everydaydaniel <daniel94@utexas.edu>
+Date:   Wed Mar 22 17:06:03 2017 -0500
+
+    Merge branch 'master' into dan-dev
+
+commit 5fb619a8917c8d57d8b065f842f6dac414fc033f
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 17:04:03 2017 -0500
+
+    fix pages
+
+commit e42295db855b8a43996df7b36a717cb6b43a6caa
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Wed Mar 22 17:00:54 2017 -0500
+
+    link styling
+
+commit c9ba3f12bbdc19b8ee420c649fa5adba4b511838
+Merge: 78ae6ce 84e54a1
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 17:00:50 2017 -0500
+
+    change css
+
+commit 84e54a1312d7bcfedd4e0e5089a64b7efa41e32e
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 16:59:56 2017 -0500
+
+    table formatting
+
+commit 78ae6cedd45cb9800c11c1cd2b2f5ff179bfe3af
+Merge: 9d8cd1f 6b1017e
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Wed Mar 22 16:55:55 2017 -0500
+
+    changes to css
+
+commit 6b1017ee65a7a0387406510388f88da6b669840a
+Merge: 8d40d44 23a7dd7
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Wed Mar 22 16:54:47 2017 -0500
+
+    changes to peppers
+
+commit 8d40d447a1e2bb3426cf9953133a4645849b8def
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Wed Mar 22 16:53:32 2017 -0500
+
+    add peppers
+
+commit 9d8cd1f0ecb1a70186444b57b9a076bba8a437d4
+Merge: 9d5482f af0ff22
+Author: everydaydaniel <daniel94@utexas.edu>
+Date:   Wed Mar 22 16:46:35 2017 -0500
+
+    Merge pull request #9 from D-wags/dan-dev
+    
+    added about me
+
+commit af0ff2257b6913dec453cd500feef5b9fb373d5d
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Wed Mar 22 16:45:57 2017 -0500
+
+    added about me
+
+commit 9d5482f9fb1c5430ab7e86904d324b83c69a4a73
+Author: hmcdowelle <hmcdowelle@gmail.com>
+Date:   Wed Mar 22 16:38:03 2017 -0500
+
+    added brands.html
+
+commit a2d713d57511354581f5fd98bbb363e81af5d260
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 16:33:30 2017 -0500
+
+    fix title again
+
+commit 80e0f879b32fc7ffe959b1cc8ff11a511b9733e5
+Merge: f413c1b b02168f
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 22 16:30:01 2017 -0500
+
+    Merge branch 'dev'
+
+commit b02168fee2b33db2fcb2d2ba4bfb0361c928a671
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 22 16:29:04 2017 -0500
+
+    add sriracha page
+
+commit f413c1bf143fcd898e1362bf3adf7300f27de6da
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 16:28:24 2017 -0500
+
+    fix title
+
+commit 23a7dd7ebac47acaeb0b297545bd28426a28bc6f
+Merge: 48987ce d050703
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Wed Mar 22 16:20:40 2017 -0500
+
+    Merge branch 'dev'
+
+commit d050703455657d753029a2b953a14aeb54e6ef53
+Merge: d78f959 45b9def
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Wed Mar 22 16:19:47 2017 -0500
+
+    Merge branch 'dev' of https://github.com/D-wags/D-wags.github.io into dev
+
+commit d78f95954acb48fcbbc600312a682f38a9746cf1
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Wed Mar 22 16:19:04 2017 -0500
+
+    Add images and jalapeno page
+
+commit 48987ce1f722502d083ad82e1bd7170e4c19aa11
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 16:15:53 2017 -0500
+
+    fix css
+
+commit 6b7fcf42eb7e78b08f1387c72e7ff670301d8713
+Merge: 45b9def f5242f3
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 16:14:44 2017 -0500
+
+    changes to css
+
+commit 45b9def3b1fdcd2feb06dcfe06448b80734411e8
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 16:11:50 2017 -0500
+
+    change splash page
+
+commit f5242f375cce7dcb5931c7dfaee994ac6ec9f24d
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Wed Mar 22 15:41:44 2017 -0500
+
+    Update about page
+
+commit a3c3e635a72b0deda5c574920bd9890b8730e67a
+Merge: 1d2c2f0 058340d
+Author: everydaydaniel <daniel94@utexas.edu>
+Date:   Wed Mar 22 12:23:47 2017 -0500
+
+    Merge pull request #3 from D-wags/daniel
+    
+    Website title is now a link to main index. added css to make it chang…
+
+commit 058340d3ac063bb947232cc5f41cdffc582e9986
+Author: everydaydaniel <everydaydaniel1994@gmail.com>
+Date:   Wed Mar 22 12:22:58 2017 -0500
+
+    Website title is now a link to main index. added css to make it change color when hovered over it.
+
+commit 1d2c2f03a3d949a1a02a62260722be961d361a67
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 10:55:48 2017 -0500
+
+    add to homepage
+
+commit 7d866a4836f8434176a0bd30bfc57587a335c97b
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Wed Mar 22 10:30:33 2017 -0500
+
+    styling and change scoville to brand
+
+commit 807e9101b0e643b1ad7a0c61d3f9b326c08ac4f3
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Mar 21 18:03:22 2017 -0500
+
+    edit title
+
+commit 5537e72fc51c2d1ace4c6dde27a8d27e06d82175
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Mar 21 17:54:13 2017 -0500
+
+    add title
+
+commit afd82e63165df820d82664479029fb1399dac125
+Merge: 8df56de 6401205
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Mar 21 17:43:45 2017 -0500
+
+    Merge branch 'master' of https://github.com/D-wags/D-wags.github.io
+
+commit 8df56de4f170040ec0a1df9842fb46632549f805
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Mar 21 17:43:35 2017 -0500
+
+    change splash page
+
+commit 6401205a32d800a210eda043835e04988440b3e5
+Merge: b35012c 0f537c5
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Tue Mar 21 17:30:42 2017 -0500
+
+    Merge branch 'master' of https://github.com/D-wags/D-wags.github.io
+
+commit b35012c91d237be1f24f5477a331a9a9eaed6107
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Tue Mar 21 17:30:13 2017 -0500
+
+    Update peppers.html
+
+commit 0f537c5e875c325585f272ed501d743c63c461a0
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Mar 21 17:23:57 2017 -0500
+
+    fix images
+
+commit cccd99a741fa3a14462cfdfd4f9da0d72227acbc
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Tue Mar 21 17:17:18 2017 -0500
+
+    move files over
+
+commit 775a595662582bd135680ec24e630e37e4648b59
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 15 01:40:30 2017 -0500
+
+    4?
+
+commit ad1caa5126ee6b59aa61368c60091eac7d61258b
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 15 00:58:32 2017 -0500
+
+    3
+
+commit f551a00f0a5d027d8aab7d60653948ce55e882f3
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 15 00:57:30 2017 -0500
+
+    first commit again
+
+commit 583f0a07748addb0e41c7c4ba24ccbd062ae39cd
+Author: Drew Wagner <drew_wagner@utexas.edu>
+Date:   Wed Mar 15 00:55:47 2017 -0500
+
+    first commit
+
+commit 89ab8b45342ea1d89bc59e71f7e56adbf0e9cd55
+Author: D-wags <drew_wagner@utexas.edu>
+Date:   Wed Mar 15 00:51:33 2017 -0500
+
+    Initial commit
