@@ -1,3 +1,21 @@
+commit 77d5fe52d3bec3b6a4de859c666ff889f6be132c
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 19:18:08 2017 -0500
+
+    change commit/issue count
+
+commit 80aeb07beee0d30312eced1e6e5f64a634709dd3
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 19:16:13 2017 -0500
+
+    clean up code
+
+commit 9ade66bffc4175437cda7b82cd089b32f76bc2df
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 17:42:42 2017 -0500
+
+    add git log
+
 commit f00c63b1bc5c8aaea47127a74b4b223f462296a7
 Author: everydaydaniel <everydaydaniel1994@gmail.com>
 Date:   Thu Mar 23 17:41:10 2017 -0500
