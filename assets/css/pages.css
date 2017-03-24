@@ -14,7 +14,25 @@ td > a {
 	transition: color 350ms ease-in-out, background-color 350ms ease-in-out
 }
 
+table tr th{
+	padding: 50px;
+}
 
+table tr td{
+	padding: 50px;
+}
+
+
+tr:nth-child(odd){
+	background-color: #eee;
+}
+
+th{
+	background-color: #ffe9e7;
+}
+td{
+	text-align: left;
+}
 
 /*    Class CSS goes here       */
 .img-container {
@@ -70,7 +88,7 @@ td > a {
 	position: relative;
 	float: left;
 	text-align: center;
-	margin: 0px 0px 0px 150px;
+	margin: 0px 0px 0px 100px;
 }
 
 .feature img {
@@ -87,7 +105,7 @@ td > a {
 }
 
 .wrapper {
-    margin-left:500px;
+    margin-left:450px;
     margin-right:auto;
     width:750px;
 }
@@ -114,13 +132,7 @@ td > a {
 	text-align: center;
 }
 
-table tr th{
-	padding: 50px;
-}
 
-table tr td{
-	padding: 50px;
-}
 
 table tr td .img-container{
 	float: left;
@@ -131,13 +143,3 @@ table tr td .img-container{
 
 }
 
-tr:nth-child(odd){
-	background-color: #eee;
-}
-
-th{
-	background-color: #ffe9e7;
-}
-td{
-	text-align: left;
-}
