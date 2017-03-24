@@ -1,3 +1,15 @@
+commit ca39cf2f6be59e5b13a9242424f74071f2fa3015
+Author: ellenwyllie <ellen.wyllie@gmail.com>
+Date:   Thu Mar 23 21:39:16 2017 -0500
+
+    Fix wiki link
+
+commit ed2c56d96567ac480b22bfbf4f0d9a00bcfa4475
+Author: Megan Weijiang <meganweijiang@utexas.edu>
+Date:   Thu Mar 23 19:23:23 2017 -0500
+
+    append to git log
+
 commit 77d5fe52d3bec3b6a4de859c666ff889f6be132c
 Author: Megan Weijiang <meganweijiang@utexas.edu>
 Date:   Thu Mar 23 19:18:08 2017 -0500
