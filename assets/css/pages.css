@@ -2,7 +2,7 @@
 
 footer {
 	text-align: center;
-	margin: 100px;
+	padding: 50px;
 }
 td > a:hover {
 	color: #d63030;
@@ -143,3 +143,24 @@ table tr td .img-container{
 
 }
 
+.section {
+    /* the important one*/
+    background-attachment: fixed; 
+ 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#section1 {
+    background-image: url(../images/h1.jpg);
+    color: white;
+}
+#section2 {
+    background-image: url(../images/h2.jpg);
+    color: white;
+}
+#section3 {
+    background-image: url(../images/h3.jpg);
+    color: black;
+}
