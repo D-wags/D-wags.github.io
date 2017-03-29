@@ -149,18 +149,22 @@ table tr td .img-container{
  
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
     height: 500px;
 }
 
 #section1 {
     background-image: url(../images/h1.jpg);
+    padding: 50px;
     color: white;
 }
 #section2 {
     background-image: url(../images/h2.jpg);
+    padding: 50px;
     color: white;
 }
 #section3 {
     background-image: url(../images/h3.jpg);
+    padding: 50px;
     color: black;
 }
