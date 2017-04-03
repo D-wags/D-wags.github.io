@@ -13,22 +13,6 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-  <!-- <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
-  <link href="assets/css/style.css" type="text/css" rel="stylesheet"> -->
-
-
-  <!-- <link rel="apple-touch-icon" sizes="57x57" href="flavicon.ico/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="flavicon.ico/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="flavicon.ico/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="flavicon.ico/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="flavicon.ico/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="flavicon.ico/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="flavicon.ico/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="flavicon.ico/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="flavicon.ico/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="flavicon.ico/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="flavicon.ico/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="flavicon.ico/favicon-96x96.png"> -->
   <link rel="icon" type="image/png" sizes="16x16" href="flavicon.ico/favicon-16x16.png">
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
@@ -74,7 +58,7 @@
       <h2>Brands</h2>
     </div>
 
-    <table style="width:100%">
+    <table id="brandTable" style="width:100%">
       <tr>
         <th>Brand</th>
         <th>Hot Sauce</th>
@@ -84,20 +68,20 @@
         <th>Logo</th>
       </tr>
       <tr>
-        <td><a href="cholula_brand.html">Cholula</a></td>
-        <td>Cholula Hot Sauce</td>
-        <td>Camila Harrison</td>
-        <td>Cholula Hot Sauce in Chili Lime, Chili Garlic, Original, Chipotle, and Green Pepper</td>
-        <td>333 Washington Street, 3rd Floor, Jersey City, NJ 07302 </td>
-        <td><div class="img-container"><a href="http://www.cholula.com"><img class="aboutImg" src="http://spit-ball.com/i/featured/cholula-logo.gif" alt="cholula"/></a></div></td>
-      </tr>
-      <tr>
         <td><a href="davesgourmet_brand.html">Dave&#8217s Gourmet</a></td>
         <td>Dave&#8217s Ghost Pepper Naga Jolokia Hot Sauce</td>
         <td>Dave Hirschkop</td>
         <td>Dave's Gourmet Specialty Foods Pasta Sauce, Dave's Whole Ghost Peppers, Dave's Original Steak Sauce</td>
         <td>4314 Redwood Hwy, Ste 200, San Rafael, CA 94903</td>
         <td><div class="img-container"><a href="http://www.davesgourmet.com"><img class="aboutImg" src="https://static.wixstatic.com/media/97ecd2_00b13efc5a5849f5b91bf95eef8ed6bc.png/v1/fill/w_366,h_350,al_c,lg_1/97ecd2_00b13efc5a5849f5b91bf95eef8ed6bc.png" alt="davidsgourmet"/></a></div></td>
+      </tr>
+      <tr>
+        <td><a href="cholula_brand.html">Cholula</a></td>
+        <td>Cholula Hot Sauce</td>
+        <td>Camila Harrison</td>
+        <td>Cholula Hot Sauce in Chili Lime, Chili Garlic, Original, Chipotle, and Green Pepper</td>
+        <td>333 Washington Street, 3rd Floor, Jersey City, NJ 07302 </td>
+        <td><div class="img-container"><a href="http://www.cholula.com"><img class="aboutImg" src="http://spit-ball.com/i/featured/cholula-logo.gif" alt="cholula"/></a></div></td>
       </tr>
       <tr>
         <td><a href="huyfong_brand.html">Huy Fong Foods Inc.</td>
@@ -109,6 +93,8 @@
       </tr>
     </table>
 
+    <button class="btn-danger" id="brandSorter">Sort</button>
+
 
   </div>
 
@@ -119,6 +105,7 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="assets/js/brands.js" charset="utf-8"></script>
 
 </body>
 </html>
