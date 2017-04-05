@@ -10,9 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Raleway" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/pages.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" >
   <link rel="icon" type="image/png" sizes="16x16" href="flavicon.ico/favicon-16x16.png">
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
@@ -58,14 +57,15 @@
       <h2>Peppers</h2>
     </div>
 
-    <table id="pepperTable" style="width:100%">
+    <table id="InfoTable" data-page-length="4" class=" table-striped" style="width:100%">
+      <thead>
       <tr>
         <th>Pepper<span>
             <button id="asc-pepper-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
          </span>
          <span>
             <button id="desc-pepper-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
-         </span> 
+         </span>
         </th>
 
         <th>Origin<span>
@@ -73,7 +73,7 @@
          </span>
          <span>
             <button id="desc-origin-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
-         </span> 
+         </span>
         </th>
 
         <th>Scoville Scale<span>
@@ -81,7 +81,7 @@
          </span>
          <span>
             <button id="desc-scoville-sort" type="button" class="glyphicon glyphicon-sort-by-attributes-alt btn-sml"></button>
-         </span> 
+         </span>
         </th>
 
         <th>Notable Dish<span>
@@ -89,7 +89,7 @@
          </span>
          <span>
             <button id="desc-dish-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
-         </span> 
+         </span>
         </th>
 
         <th>More Information<span>
@@ -97,9 +97,11 @@
          </span>
          <span>
             <button id="desc-info-sort" type="button" class="glyphicon glyphicon-sort-by-attributes-alt btn-sml"></button>
-         </span> 
+         </span>
         </th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
 
         <td><a href="https://d-wags.github.io/redjalapeno.html">Red Jalape&#241;o Pepper</a></td>
@@ -143,6 +145,8 @@
         <td>Carolina Reaper Jam</td>
         <td><div class="pepper"><a href="https://en.wikipedia.org/wiki/Carolina_Reaper"><img class="aboutImg" src="https://pepperhead.com/wp-content/uploads/Carolina_Reaper_Header.jpg" alt="carolinareaper"/></a></div></td>
       </tr>
+    </tbody>
+
     </table>
 
 
@@ -154,9 +158,10 @@
   Copyright &copy; 2017
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="assets/js/peppers.js" charset="utf-8"></script>
+  <script src="assets/js/pagination.js" charset="utf-8"></script>
 
-   
 </body>
 </html>

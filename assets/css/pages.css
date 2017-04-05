@@ -15,20 +15,20 @@ td > a {
 }
 
 table tr th{
-	padding: 50px;
+	padding: 5em !important;
 }
 
 table tr td{
-	padding: 50px;
+	height:  10em !important;
 }
 
 
 tr:nth-child(odd){
-	background-color: #eee;
+	background-color: #eee !important;
 }
 
 th{
-	background-color: #ffe9e7;
+	background-color: #ffe9e7 !important;
 }
 td{
 	text-align: left;
@@ -145,8 +145,8 @@ table tr td .img-container{
 
 .section {
     /* the important one*/
-    background-attachment: fixed; 
- 
+    background-attachment: fixed;
+
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: 'Raleway', sans-serif;
