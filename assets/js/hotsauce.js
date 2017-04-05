@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // go through table and collect values
-  $("#sauceTable tr").slice(1).each(function() {
+  $("#pepperTable tr").slice(1).each(function() {
     var rate = $(this).find('.scoville').html();
     var original_rate = rate;
     //console.log(rate);
@@ -31,26 +31,26 @@ $(document).ready(function() {
       var rows, i, pep1, pep2, shouldSwitch;
       var table = document.getElementById("sauceTable");
       var switching = true;
-      
+
       while (switching) {
         switching = false;
         rows = table.getElementsByTagName("TR");
         for (i = 1; i < (rows.length - 1); i++) {
           console.log("???")
           shouldSwitch = false;
-          
+
           pep1 = rows[i].getElementsByTagName("TD")[2].getAttribute('data-sort');
           pep2 = rows[i + 1].getElementsByTagName("TD")[2].getAttribute('data-sort');
 
-          
+
           if ((parseInt(pep1) > parseInt(pep2)) && (ascending==true)) {
-            
+
             shouldSwitch = true;
             break;
           }
-          
+
           if ((parseInt(pep1) < parseInt(pep2)) && (ascending==false)) {
-            
+
             shouldSwitch = true;
             break;
           }
@@ -67,26 +67,26 @@ $(document).ready(function() {
   //     var rows, i, pep1, pep2, shouldSwitch;
   //     var table = document.getElementById("sauceTable");
   //     var switching = true;
-      
+
   //     while (switching) {
   //       switching = false;
   //       rows = table.getElementsByTagName("TR");
   //       for (i = 1; i < (rows.length - 1); i++) {
-          
+
   //         shouldSwitch = false;
-          
+
   //         pep1 = rows[i].getElementsByTagName("TD")[2].getAttribute('data-sort');
   //         pep2 = rows[i + 1].getElementsByTagName("TD")[2].getAttribute('data-sort');
 
 
   //         if ((parseInt(pep1) > parseInt(pep2)) && (ascending==true)) {
-            
+
   //           shouldSwitch = true;
   //           break;
   //         }
-          
+
   //         if ((parseInt(pep1) < parseInt(pep2)) && (ascending==false)) {
-            
+
   //           shouldSwitch = true;
   //           break;
   //         }
@@ -104,30 +104,30 @@ function sortTable(ascending, indx) {
       var table = document.getElementById("sauceTable");
       var switching = true;
       while (switching) {
-       
+
         switching = false;
         rows = table.getElementsByTagName("TR");
         for (i = 1; i < (rows.length - 1); i++) {
           shouldSwitch = false;
-         
+
           x = rows[i].getElementsByTagName("TD")[indx];
           y = rows[i + 1].getElementsByTagName("TD")[indx];
 
           if ((x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) && (ascending == true)) {
-       
+
             shouldSwitch= true;
             break;
           }
-        
-          
+
+
           if ((x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) && (ascending == false)) {
-       
+
             shouldSwitch= true;
             break;
           }
         }
       if (shouldSwitch) {
-        
+
         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
         switching = true;
       }
@@ -180,4 +180,3 @@ function sortTable(ascending, indx) {
   $("#desc-site-sort").click(function() {
     sortTablebyNum(false)
   });
- 

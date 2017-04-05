@@ -1,3 +1,7 @@
 $(document).ready(function() {
-    $('#InfoTable').DataTable();
+    // gets the Id of the table 
+    var tableID  = '#'
+    tableID += $('table').attr('id');
+    console.log(tableID);
+    $(tableID).DataTable();
 } );
