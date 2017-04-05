@@ -3,5 +3,8 @@ $(document).ready(function() {
     var tableID  = '#'
     tableID += $('table').attr('id');
     console.log(tableID);
-    $(tableID).DataTable();
+    $(tableID).DataTable(
+    	{
+    "bSort" : false
+	});
 } );
