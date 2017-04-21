@@ -1,0 +1,170 @@
+/* Tag Css here */
+
+footer {
+	text-align: center;
+	padding: 50px;
+}
+td > a:hover {
+	color: #d63030;
+	text-decoration: none;
+}
+
+td > a {
+	color: #337ab7;
+	transition: color 350ms ease-in-out, background-color 350ms ease-in-out
+}
+
+table tr th{
+	padding: 5em !important;
+}
+
+table tr td{
+	height:  10em !important;
+}
+
+
+tr:nth-child(odd){
+	background-color: #eee !important;
+}
+
+th{
+	background-color: #ffe9e7 !important;
+}
+td{
+	text-align: left;
+}
+
+/*    Class CSS goes here       */
+.img-container {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.aboutImg {
+	display: block;
+    height: auto;
+    width: 100%;
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+.col-md-4 h3 {
+	font-family: 'Comfortaa', cursive;
+}
+
+.title {
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	margin: 30px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+
+.navbar .navbar-collapse {
+    text-align: center;
+    background-color: #a51324;
+}
+
+
+.page-header {
+	font-family: 'Raleway', sans-serif;
+}
+
+.feature {
+	position: relative;
+	float: left;
+	text-align: center;
+	margin: 0px 0px 0px 100px;
+}
+
+.feature img {
+	position: relative;
+	width: 30%;
+	height: 30%;
+}
+
+
+.description {
+	position: relative;
+	text-align: center;
+	margin: 50px 200px 50px 0px;
+}
+
+.wrapper {
+    margin-left:450px;
+    margin-right:auto;
+    width:750px;
+}
+
+.classWithPad { margin:10px; padding:10px; }
+
+.headerLink:hover {
+	color: #d63030;
+	text-decoration: none;
+}
+
+.headerLink{
+	color: black;
+	transition: color 350ms ease-in-out, background-color 350ms ease-in-out
+}
+
+.classWithPad {
+	margin:10px;
+	padding:10px;
+}
+
+.scoville{
+	padding: 0;
+	text-align: center;
+}
+
+
+
+table tr td .img-container{
+	float: left;
+}
+
+.pepper {
+	width: 200px;
+
+}
+
+.section {
+    /* the important one*/
+    background-attachment: fixed;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    height: 500px;
+}
+
+#section1 {
+    background-image: url(../images/h1.jpg);
+    padding: 50px;
+    color: white;
+}
+#section2 {
+    background-image: url(../images/h2.jpg);
+    padding: 50px;
+    color: white;
+}
+#section3 {
+    background-image: url(../images/h3.jpg);
+    padding: 50px;
+    color: black;
+}

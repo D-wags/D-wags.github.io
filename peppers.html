@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <style type="text/css"> </style>
+  <title>Hot Sauces!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/pages.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" >
+  <link rel="icon" type="image/png" sizes="16x16" href="flavicon.ico/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+  <header>
+    <h1 class="title">
+      <a href="index.html" class="headerLink">Hot Sauce Manifesto</a>
+    </h1>
+  </header>
+  <nav class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Main</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hotsauce.html">Hot Sauces</a></li>
+        <li class="active"><a href="peppers.html">Peppers<span class="sr-only">(current)</span></a></li>
+        <li><a href="brands.html">Brands</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container-fluid">
+
+    <div class="page-header">
+      <h2>Peppers</h2>
+    </div>
+
+    <table id="pepperTable" data-page-length="3" class=" table-striped" style="width:100%">
+      <thead>
+      <tr>
+        <th style="width:70px">Pepper<span>
+            <br>
+            <button id="asc-pepper-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+         </span>
+         <span>
+            <button id="desc-pepper-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+         </span>
+        </th>
+
+        <th style="width:70px">Origin<span>
+            <br>
+            <button id="asc-origin-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+         </span>
+         <span>
+            <button id="desc-origin-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+         </span>
+        </th>
+
+        <th>Scoville Scale<span>
+            <br>
+            <button id="asc-scoville-sort" class="glyphicon glyphicon-sort-by-attributes btn-sml"></button>
+         </span>
+         <span>
+            <button id="desc-scoville-sort" type="button" class="glyphicon glyphicon-sort-by-attributes-alt btn-sml"></button>
+         </span>
+        </th>
+
+        <th>Notable Dish<span>
+            <br>
+            <button id="asc-dish-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+         </span>
+         <span>
+            <button id="desc-dish-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+         </span>
+        </th>
+
+        <th>More Information<span>
+            <br>
+            <button id="asc-info-sort" class="glyphicon glyphicon-sort-by-attributes btn-sml"></button>
+         </span>
+         <span>
+            <button id="desc-info-sort" type="button" class="glyphicon glyphicon-sort-by-attributes-alt btn-sml"></button>
+         </span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+
+        <td><a href="https://d-wags.github.io/redjalapeno.html">Red Jalape&#241;o Pepper</a></td>
+        <td>Mexico</td>
+        <td class="scoville" data-sort="10000">2,000-10,000</td>
+        <td>Pad Kee Mao</td>
+        <td><div class="pepper"><a href="https://en.wikipedia.org/wiki/Jalape%C3%B1o"><img class="aboutImg" src="https://d2lnr5mha7bycj.cloudfront.net/product-image/file/primary_a562a732-fb54-40c6-9e40-8a4f6dd6b79d.jpg" alt="redjalapeno"/></a></div></td>
+      </tr>
+      <tr>
+        <td><a href="https://d-wags.github.io/ghostpepper.html">Ghost Pepper</a></td>
+        <td>India</td>
+        <td class="scoville" data-sort="1000000">1,000,000</td>
+        <td>Spicy Curry</td>
+        <td><div class="pepper"><a href="https://en.wikipedia.org/wiki/Bhut_jolokia"><img class="aboutImg" src="http://premiumchili.hu/wp-content/uploads/2015/11/ghost_321728432.png" alt="ghostpepper"/></a></div></td>
+      </tr>
+      <tr>
+        <td><a href="https://d-wags.github.io/pequinpepper.html">Pequin Pepper</a></td>
+        <td>Brazil</td>
+        <td class="scoville" data-sort="100000">60,000-100,000</td>
+        <td>Salsa</td>
+        <td><div class="pepper"><a href="https://en.wikipedia.org/wiki/Pequin_pepper"><img class="aboutImg" src="http://www.chili-pepper.info/uploads/chili_picture/image/1279/pequin_from_ischia_1.png" alt="pequinpepper"/></a></div></td>
+      </tr>
+      <tr>
+        <td><a href="https://d-wags.github.io/cayennepepper.html">Cayenne Pepper</a></td>
+        <td>French Guiana</td>
+        <td class="scoville" data-sort="50000">30,000-50,000</td>
+        <td>Chicken Tortilla Soup</td>
+        <td><div class="pepper"><a href="https://en.wikipedia.org/wiki/Cayenne_pepper"><img class="aboutImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Large_Cayenne.jpg/220px-Large_Cayenne.jpg" alt="cayennepepper"/></a></div></td>
+      </tr>
+      <tr>
+        <td><a href="https://d-wags.github.io/tabascopepper.html">Tabasco Pepper</a></td>
+        <td>Mexico</td>
+        <td class="scoville" data-sort="50000">30,000-50,000</td>
+        <td>Pickled Tabasco Peppers</td>
+        <td><div class="pepper"><a href="https://en.wikipedia.org/wiki/Tabasco_pepper"><img class="aboutImg" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-48FkKUeaPKFlSjbzE1NJVjAWK2SGzrfCqG4-8YBOAs6BDsGPFw" alt="tabascopepper"/></a></div></td>
+      </tr>
+      <tr>
+        <td><a href="https://d-wags.github.io/carolinareaper.html">Carolina Reaper</a></td>
+        <td>South Carolina</td>
+        <td class="scoville" data-sort="22000000">1,500,000-2,200,000</td>
+        <td>Carolina Reaper Jam</td>
+        <td><div class="pepper"><a href="https://en.wikipedia.org/wiki/Carolina_Reaper"><img class="aboutImg" src="https://pepperhead.com/wp-content/uploads/Carolina_Reaper_Header.jpg" alt="carolinareaper"/></a></div></td>
+      </tr>
+    </tbody>
+
+    </table>
+
+
+  </div>
+
+
+
+  <footer>
+  Copyright &copy; 2017
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="assets/js/peppers.js" charset="utf-8"></script>
+  <script src="assets/js/scoville.js" charset="utf-8"></script>
+  <script src="assets/js/pagination.js" charset="utf-8"></script>
+</body>
+</html>
