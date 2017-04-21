@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h2>Dave&#8217;s Gourmet</h2>
+  </div>
+
+    <div class="row">
+
+      <div class="classWithPad">
+      <div class="col-md-4">
+          <a href="http://www.davesgourmet.com"><img class="img-responsive" src="https://static.wixstatic.com/media/97ecd2_791b6b85bc574f21b7c3503018a9cd29.jpg/v1/fill/w_533,h_781,al_c,lg_1,q_85/97ecd2_791b6b85bc574f21b7c3503018a9cd29.jpg"/></a>
+      </div>
+
+        <div class="col-md-8">
+
+          <p>
+            The Dave's Gourmet brand was founded by Dave Hirschkop. While running an 'off-beat' taqueria in Maryland, Hirschkop created the "hottest hot sauce in the universe" in response to drive off his drunk costumers. However, it ended up doing the opposite and customers were coming in droves for the heat as well as the flavor. This insane heat led to his sauce being banned from the National Fiery Food Show. He later moved to San Francisco, where he continued to grow the brand into other specialty food categories. He started with pasta sauces. He wanted to design innovative pasta sauces using high quality ingredients. His creations can be found on the brands page! He has earned more than seventeen prestigious Specialty Outstanding Food Innovation awards, including best in category four times. Dave has even authored a cookbook and made numerous appearances on television including the Food Network. According to their website, 'over the past twenty years, Dave and his team have worked tirelessly to save the world from blandness and banality one delicious and innovative product at a time'.
+            <br><br>
+            <b> Source: http://www.davesgourmetfieryfoods.com/our-story</b>
+          </p>
+
+          <br><br>
+          <li><a href="{{ url_for('ghost_pepper') }}">Ghost Pepper</a></li>
+          <li><a href="{{ url_for('daves_ghost_pepper') }}">Dave's Hot Sauce</a></li>
+
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+{% endblock %}

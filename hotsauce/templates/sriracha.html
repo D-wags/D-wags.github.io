@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h2>Sriracha Sauce</h2>
+  </div>
+
+
+    <div class="row">
+
+    <div class="classWithPad">
+      <div class=col-md-4>
+        <div class="">
+          <a href="http://www.huyfong.com"><img class="img-responsive" src="https://www.images-iherb.com/l/HUY-06109-2.jpg"/></a>
+        </div>
+      </div>
+
+
+        <div class="col-md-8">
+          <p>
+            Sriracha is a type of hot sauce made from a paste of red jalapeno peppers, distilled vinegar, garlic, sugar, and salt. It is named after the coastal city of Si Racha, in Chonburi Province of eastern Thailand, where legend foretells it may have been first produced for dishes served at local seafood restaurants.
+            <br><br>
+            In Thailand, sriracha is frequently used as a dipping sauce, particularly for seafood. In Vietnamese cuisine, sriracha appears as a condiment for phở, fried noodles, a topping for spring rolls (chả giò), and in sauces.  Sriracha is also eaten in soup, on eggs and burgers. Jams, lollipops, and cocktails have all been made using the sauce, and sriracha-flavored potato chips have been marketed. In America, it is used on pretty much everything.
+            <br><br>
+            The origin and history of sriracha is is mysterious and hotly debated. One report has it that the sauce was first produced by a Thai woman named Thanom Chakkapak in the town of Si Racha (or Sri Racha). According to the Thai "Chomrom Rak Si Racha" (The Si Racha Lovers' Association) the sauce was first made in the village of Sriracha by Burmese sawmill workers. The association interviewed 88 year-old Thawat Wiphisamakun, known locally as Ah Pae whose grandmother owned a small shop in Sriracha. The Burmese came to the shop to buy peppers, salt, vinegar, and sugar to pound in a mortar to make their sauce. Eventually she started making the sauce herself, both for family use and for sale to customers. Soon, another customer, Kimsua Thimkrachang, began to buy large quantities of peppers, salt, vinegar, and sugar. He was making the sauce for sale, using the brand name, "Sauce Si Racha Traa Phukhao Thong" (Golden Mountain Brand Si Racha Sauce) with a picture of the Golden Mountain Temple on the label. Its name was "Si Racha Phanich".
+            <br><br>
+            Source: <a href="https://en.wikipedia.org/wiki/Sriracha_sauce">Wikipedia</a>
+
+          </p>
+          <br><br>
+          <li><a href="{{ url_for('huyfong_sauce') }}">Huy Fong Foods Brand</a></li>
+          <li><a href="{{ url_for('jalapeno_pepper') }}">Red Jalapeño</a></li>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endblock %}

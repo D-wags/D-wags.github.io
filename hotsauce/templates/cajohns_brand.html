@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h2>Cajohns Fiery Food Company</h2>
+  </div>
+
+    <div class="row">
+
+      <div class="classWithPad">
+      <div class="col-md-4">
+          <a href="http://www.cajohns.com"><img class="img-responsive" src="https://cdn.shopify.com/s/files/1/0786/8083/products/cajohnReaper_large.png?v=1480745857"/></a>
+      </div>
+
+        <div class="col-md-8">
+
+          <p>
+            CaJohns Fiery Foods got its start in 1996. John Hard, a Fire Protection Engineer by trade, had a passion for hot and spicy food. John would prepare food for outings and get-togethers for family and friends, introducing them to the real Cajun style of eating (hot/spicy with flavor) rather than Corporate Restaurant America’s version (burn you up). His love of Tex-Mex and New Mexican cooking also developed many a Central-Ohio fan. Soon John had to start mail ordering his needs to the vendors in Louisiana, Texas and New Mexico. Then it dawned on him, why not set up a store in Columbus that would make these necessities readily available to him and others.
+            <br><br>
+            That was just the beginning. John opened CaJohns Fiery Foods and went to the Fiery Foods Show in Albuquerque, New Mexico to expand his retail offering of products. CaJohn had dreamed of a line of products made from his recipes, but his initial inquiries revealed that a run of 250-500 cases was necessary to get started. That seemed to be an over-whelming amount of product for a start-up company. While in New Mexico, he met a packager from Indiana, who shared his passion for hot and spicy. The packer told him his dream could be reality, and in 1999, the Legend was born. In 2002, CaJohn opened his own manufacturing facility to better control the manufacturing of his products. In mid-2004, John sold the 60 year old Fire Protection business, now he could devote himself full-time to his passion.
+            <br><br>
+            CaJohn’s line of specialty food products now total over 150 offerings. Salsas, Hot Sauce, barbecue sauce, rubs, spice blends, mixes and mustards make up the line. Cajun, Southwestern, Asian and Caribbean cuisines are all represented. All-natural and preservative free, carefully prepared in small batches, and monitored to insure a high level of quality and a consistent taste.
+            <br><br>
+            <b> Source: http://cajohns.com/store/index.php?route=information/information&information_id=4</b>
+            <br><br>
+            <li><a href="{{ url_for('slingblade') }}">Carolina Reaper Sling Blade</a></li>
+            <li><a href="{{ url_for('carolina_pepper') }}">Carolina Reaper</a></li>
+        </p>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endblock %}

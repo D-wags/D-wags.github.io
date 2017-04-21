@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div id="pagepiling">
+    <div class="section" id="section1">
+        <div class="intro">
+            <h1>Some like it hot.</h1>
+         </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="intro">
+            <h1>Hot Sauce Manifesto is the number one stop for hot sauce information.</h1>
+        </div>
+    </div>
+    <div class="section" id="section3">
+         <div class="intro">
+             <h1>Can you handle the heat?</h1>
+         </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/jquery.pagepiling.js') }}" charset="utf-8"></script>
+<script src="{{ url_for('static', filename='js/splash.js') }}" charset="utf-8"></script>
+{% endblock %}

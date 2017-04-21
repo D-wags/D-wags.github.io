@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% block stylesheet %}
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" >
+{% endblock %}
+{% block body %}
+
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h2>Hot Sauces</h2>
+  </div>
+
+  <table id="sauceTable" data-page-length="3" class=" table-striped" style="width:100%">
+    <thead>
+    <tr>
+      <th>Hot Sauce<span>
+          <br>
+          <button id="asc-sauce-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-sauce-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span>
+      </th>
+
+      <th>Pepper<span>
+          <br>
+          <button id="asc-pepper-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-pepper-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span>
+      </th>
+
+      <th>Scoville Scale<span>
+          <br>
+          <button id="asc-scoville-sort" class="glyphicon glyphicon-sort-by-attributes btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-scoville-sort" type="button" class="glyphicon glyphicon-sort-by-attributes-alt btn-sml"></button>
+       </span>
+      </th>
+
+      <th>Origin<span>
+          <br>
+          <button id="asc-origin-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-origin-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span>
+      </th>
+
+      <th>Company Website<span>
+          <br>
+          <button id="asc-site-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-site-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span>
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+
+      <td><a href="{{ url_for('sriracha') }}">Huy Fong Sriracha</a></td>
+      <td>Red Jalape&ntilde;o</td>
+      <td class="scoville" data-sort="2200">2,200</td>
+
+      <td>Vietnam</td>
+      <td>
+        <a href="http://www.huyfong.com">www.huyfong.com
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('cholula') }}">Cholula</a></td>
+      <td>Pequin Pepper</td>
+      <td class="scoville" data-sort="1000">1,000</td>
+      <td>Mexico</td>
+      <td>
+        <a href="http://www.cholula.com">www.cholula.com
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('daves_ghost_pepper') }}">Dave&#8217;s Ghost Pepper Naga Jolokia Hot Sauce</a></td>
+      <td>Ghost Pepper</td>
+      <td class="scoville" data-sort="650000">650,000</td>
+      <td>United States</td>
+      <td>
+        <a href="http://www.davesgourmetfieryfoods.com">www.davesgourmetfieryfoods.com
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('franks_red_hot') }}">Frank's Red Hot</a></td>
+      <td>Cayenne Pepper</td>
+      <td class="scoville" data-sort="500">500</td>
+      <td>United States</td>
+      <td>
+        <a href="http://www.franksredhot.com">www.franksredhot.com
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('tabasco') }}">Tabasco</a></td>
+      <td>Tabasco Pepper</td>
+      <td class="scoville" data-sort="3000">3,000</td>
+      <td>United States</td>
+      <td>
+        <a href="http://www.tabasco.com">www.tabasco.com
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('slingblade') }}">Carolina Reaper Sling Blade</a></td>
+      <td>Carolina Reaper</td>
+      <td class="scoville" data-sort="1474000">1,474,000</td>
+      <td>United States</td>
+      <td>
+        <a href="http://www.cajohns.com">www.cajohns.com
+        </a>
+      </td>
+    </tr>
+
+  </tbody>
+
+  </table>
+
+
+</div>
+
+{% endblock %}
+
+{% block datatable %}
+<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/hotsauce.js') }}" charset="utf-8"></script>
+<script src="{{ url_for('static', filename='js/pagination.js') }}" charset="utf-8"></script>
+{% endblock %}

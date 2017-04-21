@@ -1,0 +1,45 @@
+
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h2>Frank's Red Hot</h2>
+  </div>
+
+
+    <div class="row">
+
+    <div class="classWithPad">
+      <div class=col-md-4>
+        <div class="">
+          <a href="http://www.franksredhot.com/"><img class="img-responsive" src="{{ url_for('static', filename='images/franks.jpg') }}"/></a>
+        </div>
+      </div>
+
+
+        <div class="col-md-8">
+          <p>
+
+            <br><br>
+            Scoville: 500
+            <br>
+            Origin: United States
+            <br>
+            Pepper: Cayenne Pepper
+            <br><br>
+            Source: <a href="https://en.wikipedia.org/wiki/Frank%27s_RedHot">Wikipedia</a>
+
+          </p>
+          <br><br>
+          <li><a href="{{ url_for('franksredhot_sauce') }}">Frank's Red Hot Brand</a></li>
+          <li><a href="{{ url_for('cayenne_pepper') }}">Cayenne Pepper</a></li>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endblock %}

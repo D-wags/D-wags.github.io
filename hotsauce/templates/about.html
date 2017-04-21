@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h2>About Us</h2>
+  </div>
+
+<div class="container">
+
+  <div class="row">
+    <h4>TEAM MEMBERS</h4>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <h3> Harrington McDowelle </h3>
+      <p>Just trying to get this degree and make this bread.</p>
+      <p>Major responsibilities: Brand page, brand instance pages</p>
+     <div class="img-container"><img class="aboutImg" src="{{ url_for('static', filename='images/harringtonAboutPic.JPG') }}" alt="harrington"/></div>
+    </div>
+
+    <div class="col-md-4">
+      <h3> Drew Wagner </h3>
+      <p>Self-made thousandaire with fruit aspirations.
+        Favorite pepper: shishito</p>
+      <p>Major responsibilities: UI implementation, hot sauce page, hot sauce instance page</p>
+     <div class="img-container"><img class="aboutImg" src="{{ url_for('static', filename='images/drew_banana.jpg') }}" alt="drew"/></div>
+    </div>
+
+    <div class="col-md-4">
+      <h3> Megan Weijiang </h3>
+      <p>Meow meow meow - that means "hello" in cat!</p>
+      <p>Major responsibilities: Styling implementation, splash page, about page</p>
+      <div class="img-container"><img class="aboutImg" src="{{ url_for('static', filename='images/megan.JPG') }}" alt="megan"/></div>
+    </div>
+
+  </div>
+
+  <br>
+  <br>
+
+    <div class="col-md-4">
+      <h3> Ellen Wyllie </h3>
+      <p>Likes math and poodles.</p>
+      <p>Major responsibilities: Peppers page, peppers instance pages</p>
+     <div class="img-container"><img class="aboutImg" src="{{ url_for('static', filename='images/ellen.jpg') }}" alt="ellen"/></div>
+    </div>
+    <div class="col-md-4">
+      <h3>Daniel Herrera</h3>
+      <p>All of the above</p>
+      <p>Major responsibilites: Styling implementation, cleaning up pages, javascript, Flask and Digital Ocean setup</p>
+     <div class="img-container"><img class="aboutImg" src="{{ url_for('static', filename='images/aboutdan.JPG') }}" alt="dis me"/></div>
+    </div>
+    <div class="col-md-4">
+       <h3> Stats </h3>
+      <p>Total number of commits: 109</p>
+      <p>Total number of issues: 18</p>
+     <div class="img-container"><a href="https://github.com/D-wags/cs329e-idb"><img class="aboutImg" src="{{ url_for('static', filename='images/githublogo.png') }}" alt="catoctopus"/></a></div>
+     <a href="https://github.com/D-wags/cs329e-idb/issues">Github Issue Tracker</a>
+     <br>
+     <a href="https://github.com/D-wags/D-wags.github.io/wiki">Github Wiki</a>
+    </div>
+    <div class="col-md-4">
+       <h3> Tools </h3>
+     <a href="http://getbootstrap.com/">Bootstrap</a>
+     <br>
+     <a href="https://www.w3schools.com/js/js_intro.asp">JavaScript</a>
+     <br>
+     <a href="https://www.w3schools.com/html/html_intro.asp">HTML</a>
+     <br>
+     <a href="https://www.w3schools.com/css/css_intro.asp">CSS</a>
+    <br>
+    <a href="https://jquery.com/">Jquery</a>
+    <br>
+    <a href="https://slack.com/">Slack</a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

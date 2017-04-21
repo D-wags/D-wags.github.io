@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block stylesheet %}
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" >
+{% endblock %}
+{% block body %}
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h2>Brands</h2>
+  </div>
+
+  <table id="brandTable" data-page-length="3" class=" table-striped" style="width:100%">
+    <thead>
+    <tr>
+      <th style="width:65px">Brand
+       <span>
+          <br>
+          <button id="asc-sauce-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-sauce-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span>
+      </th>
+
+      <th style="width:65px">Hot Sauce<span>
+          <br>
+          <button id="asc-brand-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-brand-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span> </th>
+
+
+      <th style="width:65px">Founder<span>
+          <br>
+          <button id="asc-founder-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-founder-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span> </th>
+
+      <th style="width:65px">Other Products<span>
+          <br>
+          <button id="asc-other-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-other-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span> </th>
+
+      <th style="width:65px">Address<span>
+          <br>
+          <button id="asc-address-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-address-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span></th>
+
+      <th style="width:65px">Logo<span>
+          <br>
+          <button id="asc-logo-sort" class="glyphicon glyphicon-sort-by-alphabet btn-sml"></button>
+       </span>
+       <span>
+          <button id="desc-logo-sort" type="button" class="glyphicon glyphicon-sort-by-alphabet-alt btn-sml"></button>
+       </span> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="{{ url_for('daves_sauce') }}">Dave&#8217;s Gourmet</a></td>
+      <td>Dave&#8217;s Ghost Pepper Naga Jolokia Hot Sauce</td>
+      <td>Dave Hirschkop</td>
+      <td>Dave's Gourmet Specialty Foods Pasta Sauce, Dave's Whole Ghost Peppers, Dave's Original Steak Sauce</td>
+      <td>4314 Redwood Hwy, Ste 200, San Rafael, CA 94903</td>
+      <td><div class="img-container"><a href="http://www.davesgourmet.com"><img class="aboutImg" src="https://static.wixstatic.com/media/97ecd2_00b13efc5a5849f5b91bf95eef8ed6bc.png/v1/fill/w_366,h_350,al_c,lg_1/97ecd2_00b13efc5a5849f5b91bf95eef8ed6bc.png" alt="davidsgourmet"/></a></div></td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('cholula_sauce') }}">Cholula</a></td>
+      <td>Cholula Hot Sauce</td>
+      <td>Camila Harrison</td>
+      <td>Cholula Hot Sauce in Chili Lime, Chili Garlic, Original, Chipotle, and Green Pepper</td>
+      <td>333 Washington Street, 3rd Floor, Jersey City, NJ 07302 </td>
+      <td><div class="img-container"><a href="http://www.cholula.com"><img class="aboutImg" src="http://spit-ball.com/i/featured/cholula-logo.gif" alt="cholula"/></a></div></td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('huyfong_sauce') }}">Huy Fong Foods Inc.</td>
+      <td>Huy Fong Sriracha</td>
+      <td>David Tran</td>
+      <td>Rogue Sriracha Hot Stout Beer, The Original Sriracha Hot Chili Sauce Ketchup, Sriracha2Go</td>
+      <td>4800 Azusa Canyon Rd., Irwindale, CA 91706</td>
+      <td><div class="img-container"><a href="http://www.huyfong.com"><img class="aboutImg" src="https://upload.wikimedia.org/wikipedia/en/8/87/Huy_Fong_Foods_logo.gif" alt="huyfong"/></a></div></td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('franksredhot_sauce') }}">Frank&#8217;s Red Hot</td>
+      <td>Frank&#8217;s Red Hot Original</td>
+      <td>Jacob Frank</td>
+      <td>Frank&#8217;s Red Hot Buffalo Wings Sauce, Frank&#8217;s Red Hot Sweet Chili Sauce, Frank&#8217;s Red Hot Kickin BBQ Sauce</td>
+      <td>P.O. Box 224, Parsippany, NJ 07054-0224</td>
+      <td><div class="img-container"><a href="http://www.franksredhot.com"><img class="aboutImg" src="http://www.franksredhot.com/img/header/logo.png" alt="frank"/></a></div></td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('cajohns_sauce') }}">Cajohns Fiery Foods</td>
+      <td>Reaper Sling Blade Hot Sauce</td>
+      <td>John Hard</td>
+      <td>Reaper BBQ Sauce, Elixir of Numex Lemon Spice Hot Sauce, Cajohns Ghost Chile Pepper Sauce</td>
+      <td>816 Green Crest Dr., Westerville, OH 43081</td>
+      <td><div class="img-container"><a href="http://www.cajohns.com"><img class="aboutImg" src="http://zestfest.net/wp-content/uploads/2014/12/CaJohns_Logo-291x300.jpg" alt="cajohns"/></a></div></td>
+    </tr>
+    <tr>
+      <td><a href="{{ url_for('tabasco_sauce') }}">Tabasco</td>
+      <td>Tabasco Pepper Sauce</td>
+      <td>Edmund McIlhenny</td>
+      <td>Tabasco Buffalo Style Hot Sauce, Tabasco Chipotle Sauce, Tabasco Sweet and Spicy Sauce</td>
+      <td>McIlhenny Company, Avery Island, LA 70513</td>
+      <td><div class="img-container"><a href="http://www.tabasco.com"><img class="aboutImg" src="http://www.tabasco.com/objects/shells/sitewide/images/color-logo.png?g=nPc03v&a=K3dM74" alt="tabasco"/></a></div></td>
+    </tr>
+  </tbody>
+
+  </table>
+</div>
+
+{% endblock %}
+
+{% block datatable %}
+<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/brands.js') }}" charset="utf-8"></script>
+<script src="{{ url_for('static', filename='js/pagination.js') }}" charset="utf-8"></script>
+{% endblock %}

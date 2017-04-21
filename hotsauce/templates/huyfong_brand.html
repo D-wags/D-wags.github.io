@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container-fluid">
+
+  <div class="page-header">
+    <h2>Huy Fong Foods Inc.</h2>
+  </div>
+
+    <div class="row">
+
+      <div class="classWithPad">
+      <div class="col-md-4">
+          <a href="http://www.huyfong.com"><img class="img-responsive" src="https://cdn.shopify.com/s/files/1/0397/8853/products/packets-sq-800_580x@2x.jpg?v=1476823018"/></a>
+      </div>
+
+        <div class="col-md-8">
+
+          <p>
+            The Huy Fong Foods Inc. was founded by David Tran. David Tran's journey  began making chili sauces in 1975. At the time he was in his native Vietnam, where his brother grew chili peppers on a farm. He then had to relocate after the Vietnamese government began to crack down on ethnic Chinese in south Vietnam. Tran was granted asylum in the United States. He started Huy Fong Foods in 1980, naming the company after the refugee ship that brought him out of Vietnam. The sauce was initially supplied to Asian restaurants near his base in Chinatown, Los Angeles. However, sales grew steadily by word of mouth. The sauce had a unique flavor and customers could not get enough. The brand is recognized by its quirky rooster, clear bottle, and green cap.
+
+            <br><br>
+            <b> Source: https://en.wikipedia.org/wiki/Sriracha_sauce_(Huy_Fong_Foods)</b>
+          </p>
+          <br><br>
+          <li><a href="{{ url_for('sriracha') }}">Sriracha</a></li>
+          <li><a href="{{ url_for('jalapeno_pepper') }}">Red Jalapeño</a></li>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+{% endblock %}
