@@ -112,13 +112,13 @@ body {
         }
             .twitter {
                 background-image: url(../img/twitter.png);
-                width: 20px;
-                height: 17px;
+                width: 30px;
+                height: 30px;
             }
             .github {
                 background-image: url(../img/github.png);
-                width: 21px;
-                height: 20px;*/
+                width: 30px;
+                height: 30px;*/
             }
             .pubmed {
                 background-image: url(../img/pubmed.png);
@@ -127,21 +127,10 @@ body {
             }
             .linkedin {
                 background-image: url(../img/linkedin.png);
-                width: 21px;
-                height: 21px;
+                width: 30px;
+                height: 30px;
             }
-            .instagram {
-                background-image: url(../img/instagram.png);
-                width: 20px;
-                height: 19px;
-            }
-            .flickr {
-                background-image: url(../img/flickr.png);
-                width: 20px;
-                height: 9px;
-            }
-
-
+           
 
 
 
