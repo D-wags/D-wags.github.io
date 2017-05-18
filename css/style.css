@@ -59,6 +59,8 @@ small {
 img {
     border: none;
     font-style: italic;
+    display: inline-block;
+     border-radius: 75px;
 }
 input,
 select, option, optgroup,
@@ -92,14 +94,27 @@ body {
         border-radius: 125px;
     }
 
+/*.hand {
+    float: left;
+    
+}*/
+    .hand img {
+        float: left;
+        display: inline-block;
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 75px;
+    }
+
 .content {
     float: left;
-    width: 450px;
+    width: 650px;
 }
     .title {
         font-size: 48px;
         font-weight: normal;
         line-height: 1;
+        display: inline-block;
     }
 
     .social-icons li {
@@ -112,13 +127,13 @@ body {
         }
             .twitter {
                 background-image: url(../img/twitter.png);
-                width: 30px;
-                height: 30px;
+                width: 20px;
+                height: 17px;
             }
             .github {
                 background-image: url(../img/github.png);
-                width: 30px;
-                height: 30px;*/
+                width: 21px;
+                height: 20px;*/
             }
             .pubmed {
                 background-image: url(../img/pubmed.png);
@@ -127,10 +142,21 @@ body {
             }
             .linkedin {
                 background-image: url(../img/linkedin.png);
-                width: 30px;
-                height: 30px;
+                width: 21px;
+                height: 21px;
             }
-           
+            .instagram {
+                background-image: url(../img/instagram.png);
+                width: 20px;
+                height: 19px;
+            }
+            .flickr {
+                background-image: url(../img/flickr.png);
+                width: 20px;
+                height: 9px;
+            }
+
+
 
 
 
