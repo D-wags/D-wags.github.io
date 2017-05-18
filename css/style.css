@@ -60,7 +60,8 @@ img {
     border: none;
     font-style: italic;
     display: inline-block;
-     border-radius: 75px;
+    border-radius: 75px;
+
 }
 input,
 select, option, optgroup,
