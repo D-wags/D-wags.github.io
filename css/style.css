@@ -85,6 +85,14 @@ body {
     margin: 10%;
 }
 
+footer {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+
+}
+        
+
 .avatar {
     float: left;
     margin: 0 40px 20px 0;
@@ -94,6 +102,10 @@ body {
         max-height: 200px;
         border-radius: 125px;
     }
+
+.item-text {
+    margin-bottom: 30px;
+}
 
 /*.hand {
     float: left;
@@ -165,15 +177,16 @@ body {
     $TYPOGRAPHY
 \*------------------------------------*/
 p,
-ul, ol, dl,
+ul, ol, dl
 .title {
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 p {
     font-weight: bold;
 }
 ul, ol, dl {
-    list-style-type: none;
+    list-style-type: circle;
 }
 a {
     color: #339999;
@@ -311,6 +324,11 @@ Copyright (c) 2012 Dan Eden
     -moz-animation-name: bounceInDown;
     -o-animation-name: bounceInDown;
     animation-name: bounceInDown;
+}
+
+.gitImg {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
